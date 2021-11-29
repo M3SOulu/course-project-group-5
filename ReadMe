@@ -1,4 +1,18 @@
+ 
+myHealthBuddy
+
+Our Project is about creating a mobile application that facilitate remote health counseling, because in our time while we are still fighting the coronavirus, minimal physical contact is still advised. Furthermore, there are many situations where physical checkups are not required, like for example the common cold, minor injuries, lab results analysis, follow up checkups…, we can save a lot of time by handling these situations remotely on a video call, and protect the lives of our healthcare personals. 
+The application will have two categories of users, the first category is the normal everyday citizens where they will be able to ask for consultations, schedule remote video calls appointments or even physical appointments if it is necessary, to view their health reports online uncovering how healthy they are and some analysis , to get also some personalized reminders and notifications regarding their health based on their own health problems and bad habits that they are trying to overcome, like remembering to take medications, drinking water, and exercising. The second category will be the healthcare service personals, like doctors can have online video based private consultations sessions with their patients, and contact them easily to notify them of certain change or something important, and also consult their appointment and access a list of information about all their patients, the application can also include nutritionists that can give personalized diet plans to people seeking to fight obesity, diabetes, heart problems…
+
+Data Spaces
+There is no necessary need for huge amount of data for this application to work, since the main goal of the application is to provide remote health consultations and for user information, we can collect that information through registration. However, if the app was to be used in public healthcare, dataset of medical records of citizens would be needed.
+Some datasources that can be helpful for our analysis are: 
+•	Information about health problems, Death causes in Oulu/Finland https://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__ter__ajkul/statfin_ajkul_pxt_001.px/ https://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__ter__evtk/statfin_evtk_pxt_001.px/ https://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__ter__ksyyt/statfin_ksyyt_pxt_11bs.px/
+•	Information about Queuing times 
+https://data.ouka.fi/data/en_GB/dataset/oulun-kaupungin-terveysasemien-ja-hyvinvointikeskustenkiireettomien-aikojen-jonotilanne
 
 
-2
-2
+
+ Data Space design
+In our ecosystem, data comes from a few different sources, which are then utilized for a few different purposes and then visualized in a user-friendly format. It is important to edit and merge the data because the data we need is not directly available, so that data needs to be partially created.
+
